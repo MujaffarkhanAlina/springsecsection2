@@ -9,6 +9,7 @@ public class BalanceController {
 	@GetMapping("/myBalance")
 	public String getBalanceDetails(String input)
 	{
+		 System.out.println("call getBalanceDetails");
 		return "Here are the balance details from the DB";
 	}
 
